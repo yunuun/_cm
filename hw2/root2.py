@@ -9,3 +9,4 @@ def root2(a, b, c):
     return ans1, cmath.isclose(f(ans1), 0), ans2, cmath.isclose(0, f(ans2))
 
 print(root2(1, -5, 6))
+print(root2(2, 4, 2))
